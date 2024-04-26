@@ -1,0 +1,10 @@
+name: PoaSimpleClansInventoryAddon
+version: '${project.version}'
+main: poa.poasimpleclansinventoryaddon.PoaSimpleClansInventoryAddon
+api-version: '1.20'
+softdepend:
+  - SimpleClans
+
+commands:
+  claninventory:
+    permission: poa.claninventory
